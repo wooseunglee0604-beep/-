@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>눈쟁DB</title>
+    <meta name="description" content="눈쟁DB - 맞춤형 데이터베이스 및 정보 큐레이션 플랫폼" />
+    <meta property="og:title" content="눈쟁DB" />
+    <meta property="og:description" content="눈쟁DB - 맞춤형 데이터베이스 및 정보 큐레이션 플랫폼" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      (function() {
+        const theme = localStorage.getItem('noonjang_theme');
+        if (theme === 'light') {
+          document.documentElement.classList.remove('dark');
+        } else {
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
